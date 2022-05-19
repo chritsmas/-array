@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    char student[][25]={"\0","Sivanonh","Juje","Sokxay","Oudomphon","Vanasack","Sanaxay","Soukdavy","Souphaxay","Zeokham","Manikone","Pamisouk","Ekthavyphon","Mina","Andina"};
+    printf("---------------------\n");
+    printf("1CS1 Student:\n");
+    for (int i=1;i<30;i++){
+    printf("%d. %s\n",i,student[i]);
+    }
+    printf("---------------------\n");
+    return 0;
+}
